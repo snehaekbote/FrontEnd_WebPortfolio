@@ -1,0 +1,16 @@
+/* Add your existing styles above this media query */
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600px */
+    body {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    /* Add any other styles for smaller screens here */
+  }
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other elements */
+  }
